@@ -1,22 +1,19 @@
 // File: src/pages/Resume/ResumePage.js
 
 import React from 'react';
-import Header from '../../components/Header/Header';
-import TextContentBlock from '../../components/TextContentBlock/TextContentBlock';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
-const ResumePage = () => {
+const Resume = () => {
   return (
-    <div className="resume-page">
+    <div className="resume">
       <Header />
-      <TextContentBlock>
-        <h2>My Resume</h2>
-        <p>
-          Please find attached my resume for more details about my education, work experience, and technical skills. If you have any questions or would like to know more, feel free to contact me.
-        </p>
-        <a href="/path/to/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
-      </TextContentBlock>
+      <section className="resume-section">
+        {/* Embedded or downloadable resume */}
+      </section>
+      <Footer />
     </div>
   );
 };
 
-export default ResumePage;
+export default Resume;
