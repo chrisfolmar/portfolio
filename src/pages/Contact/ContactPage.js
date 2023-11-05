@@ -10,9 +10,16 @@ const ContactPage = () => {
       <Header />
       <TextContentBlock>
         <h2>Contact Me</h2>
-        <p>This is the contact page content.</p>
+        <p>
+          Let's connect and discuss how we can work together. You can reach out to me via email or phone, and I'll get back to you as soon as possible.
+        </p>
+        <p>
+          Email: john.doe@example.com
+        </p>
+        <p>
+          Phone: +1 (123) 456-7890
+        </p>
       </TextContentBlock>
-      {/* Additional components or sections */}
     </div>
   );
 };

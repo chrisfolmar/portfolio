@@ -10,9 +10,11 @@ const ResumePage = () => {
       <Header />
       <TextContentBlock>
         <h2>My Resume</h2>
-        <p>This is the resume page content.</p>
+        <p>
+          Please find attached my resume for more details about my education, work experience, and technical skills. If you have any questions or would like to know more, feel free to contact me.
+        </p>
+        <a href="/path/to/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
       </TextContentBlock>
-      {/* Additional components or sections */}
     </div>
   );
 };
